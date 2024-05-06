@@ -187,9 +187,13 @@
     
 // }
 
+
+
 // İstifadəçidən iki rəqəm və bir riyazi əməl daxil etməsini təmin edin və həmin ədədlər üzərində daxil olunmuş riyazi əməli
 // tətbiq edib nəticəni ekrana çıxarın.
 // let a = Number(prompt("1 ci reqemi yazin"))
 // let b = Number(prompt("1 ci reqemi yazin"))
 // let calc = a * b;
 // alert(`cavab: ${a} * ${b} : ${calc}`)
+
+
