@@ -108,7 +108,7 @@
 //     alert("Tempuratur sehvdir")
 // }
 
-// Daxil edilen rəqəmə görə həftənin günlərini çıxardan program yazın 
+// Daxil edilen rəqəmə görə həftənin günlərini çıxardan program yazın
 // let day = Number(prompt("Enter a number from 1 to 7"));
 // switch (day) {
 //   case 1:
@@ -184,10 +184,8 @@
 //     if(i%7==0 && i%8==0){
 //         console.log(i);
 //     }
-    
+
 // }
-
-
 
 // İstifadəçidən iki rəqəm və bir riyazi əməl daxil etməsini təmin edin və həmin ədədlər üzərində daxil olunmuş riyazi əməli
 // tətbiq edib nəticəni ekrana çıxarın.
@@ -196,4 +194,75 @@
 // let calc = a * b;
 // alert(`cavab: ${a} * ${b} : ${calc}`)
 
+// let array =[1,2,3,4,5]
+// for (let i = 0; i <= array.length;i++){
+//     if(array[i] != 0) {
+//         array.splice(i,4);
+//     }
+// }
+// console.log(array);
 
+// 1. Array elementlərinin cəmini / hasilini tapın
+// let arr=[1,2,3,4,5]
+// let sum = 0;
+// let hasil = 1;
+// for (let i = 0; i < arr.length; i++){
+//     sum +=arr[i]
+//     hasil*=arr[i]
+// }
+// console.log(sum)
+// console.log(hasil)
+
+// 2. Array elementlərinin içində təkrarlanan elementləri silin
+// let array =[1,1,2,2,3,4,3,3,2,2,2,2,5]
+// for (let i = 0; i < array.length;i++){
+//    for (let j = i+1; j<array.length;j++){
+//     if(array[i]==array[j]){
+//         array.splice(j,1)
+//         j--
+//     }
+//    }
+// }
+// console.log(array);
+
+// 3. Array elementlərində ədəd olmayan elementləri silin
+// let array = [1,"s","d",true,null,undefined,false,"adil",4,7]
+// for (let i = 0 ; i < array.length; i++ ){
+//    if(!Number.isInteger(array[i])){
+//        array.splice(i ,1)
+//        i--
+//    }
+// }
+// console.log(array)
+
+// 4. Array elementlərindən maksimum/minimum olanı tapın.
+// let array = [-2, -6, -8, -9, -5, -10, 0, 5, 2, 8];
+// let min = array[0]
+// let max = array[0]
+// for(let i = 0 ; i < array.length;i++){
+//     if(array[i]>max){
+//         max = array[i]
+//     }else if(array[i]<min){
+//         min = array[i]
+//     }
+// }
+// console.log("Maksimum: "+max+" Minimum: "+min)
+
+// 5. Daxil edilən cumlədəki simvol sayını çıxarın.
+// let string ="Hello World"  // string.length
+// let count = 0
+// for(let i=0; i<string.length;i++){
+// if(string[i]!=" "){
+//     count++
+// }
+// }
+// console.log(count);
+// console.log(string.length);
+
+// 6. Array elementlerini 2-yə vurub yeni bir array kimi çap edin.
+// let arr=[1,2,3,4,5,6,7,8,9];
+// let newArr=[]
+//  for(let i=0;i<arr.length;i++){
+//    newArr.push(arr[i],arr[i+1])
+// }
+// console.log(newArr);
