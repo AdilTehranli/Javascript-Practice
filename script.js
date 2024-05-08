@@ -350,3 +350,42 @@
 //     console.log("False");
     
     
+// 16. Array elementlərini sort metodundan istifadə etmədən artma / azalma
+// istiqamətinə görə sıralayın (bubble sort)
+// function SortArray(array) {
+//         for (var i = 0; i < array.length; i++){
+//             for (var j= 0;j<array.length;j++){
+//                 if(array[i]>array[j]){
+//                     var temp = array[i];
+//                     array[i]=array[j];
+//                     array[j]=temp;
+//                 }
+//             }
+//         }
+//         return array;
+// }
+// let myArr = [9,8,7,6,5,4,3,2,1];
+// console.log(SortArray(myArr));
+
+// 17. İstifadəçidən ədəd daxil etməyini tələb edin. Proqram daxil edilən ədədi
+// oxuyur və ədədin hər bir rəqəmini arada boşluq olmaqla ekrana verir. Məs:
+// Giriş: 3456 Çıxış: 3 4 5 6
+// let numberInput = prompt("Enter a number","")
+// function printNumberWithSpaces(numberInput){
+//     return numberInput.split('').join(' ')
+// }
+// console.log(printNumberWithSpaces(numberInput))
+
+// 18. Verilmiş mətndə təkrarlana sözlərin sayını tapın
+// const  sentence = "The quick brown fox fox jumps over the lazy dog"
+// const chars = {}
+// const arr = sentence.split(' ')
+// for(let word of arr){
+//     if(!chars[word]){
+//         chars[word] = 1
+//     }else{
+//         chars[word]++
+//     }
+// }
+// console.log(chars);
+
