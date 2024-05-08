@@ -348,7 +348,8 @@
 //     console.log("True");
 // else
 //     console.log("False");
-    
+                  
+             
     
 // 16. Array elementlərini sort metodundan istifadə etmədən artma / azalma
 // istiqamətinə görə sıralayın (bubble sort)
@@ -389,3 +390,7 @@
 // }
 // console.log(chars);
 
+// 23. Verilmiş mətndə «ADNA» sözlərini «ADNSU» sözü ilə əvəz edin.
+// let str = "ADNA";
+// str = str.replace("ADNA", "ADNSU");
+// console.log(str)
