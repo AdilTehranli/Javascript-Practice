@@ -266,3 +266,87 @@
 //    newArr.push(arr[i],arr[i+1])
 // }
 // console.log(newArr);
+
+// 7. Array elementlərini tərsinə çap edin.
+// let arr=[1,2,3,4,5]
+// function reverseArray(arr){
+//     let reversedArr = [];
+//     for (let i = arr.length - 1; i >= 0; i--) {
+//         reversedArr.push(arr[i]);
+//       }
+//       return reversedArr;
+// }
+// console.log(reverseArray(arr));
+
+// 8. Verilmiş massivlərdə hər bir indeks dəyərinin cəmini hesablayan
+// JavaScript proqramı yazın.(Massivlərin uzunluqları mütləq eyni olmalıdı)
+// let arr1=[1,0,2,3,4];
+// let arr2=[3,5,6,7,8];
+
+// let sum= arr1.map(function(num,id){
+//     return num + arr2[id]
+// })
+// console.log(sum);
+
+// 9. Sözü tərsinə çevirən program yazın.
+// let text="Hello World"
+// let reserved = ""
+// for (let i= text.length -1; i>0 ; i--){
+//     reserved+=text[i]
+// }
+// console.log(reserved);
+
+// 10. Cümlədəki sözlərin yerini tərsinə çevirən program yazın.
+// let text = "Salam menim adim leyladir"
+// function ReverseApp() {
+//     return text.split(" ").reverse().join(" ").split("  ").reverse().join(" ")
+// }
+// console.log(ReverseApp());
+
+// 11. Daxil edilmiş ədədi sözlə yazan funskiya (Məsinput:1, output : Bir)
+// function wordNumber(number){
+//     switch(number){
+//          case 1:
+//              return 'Bir';
+//          break;
+//          case 2:
+//              return 'İki';
+//          break;
+//          default:
+//              return `${number} say`;
+//      }
+// }
+// console.log(wordNumber(1));
+
+// 12. Verilmiş mətndə sözlərin sayını tapın.
+// function wordsLen(str) { 
+//     const array = str.trim().split(/\s+/); 
+//     return array.length; 
+// } 
+// const str = "Salam dünya lorem Salam dünya lorem Salam dünya lorem Salam dünya lorem Salam dünya lorem Salam dünya lorem Salam dünya lorem Salam dünya lorem Salam dünya lorem Salam dünya lorem Salam dünya lorem Salam dünya lorem "; 
+// console.log(wordsLen(str));
+
+// 13. Verilmiş cümlədə artıq boşluq simvollarını silin
+// let word = "Salam men gele bilmeyecem"
+// function removeSpaces(word){
+//    return word.split(" ").join("")
+// }
+// console.log(removeSpaces(word))
+
+// 14. Verilmiş mətndə cümlələrin ilk sözündə olan baş hərfin böyük yazılmasını
+// təmin edən proqram yazın
+// let sentence = "bu bir cümədir bu daqiqada işləmir."
+// function capitalizeFirstLetter(sentence){
+//     return sentence.charAt(0).toUpperCase()
+// }
+// console.log(capitalizeFirstLetter(sentence))
+
+// 15. İki arrayın eyniliyini yoxlayın.
+// let arr1 = [1,2,3,4,5]
+// let arr2 = [1,2,3,4,5]
+// if (JSON.stringify(arr1) == JSON.stringify(arr2))
+//     console.log("True");
+// else
+//     console.log("False");
+    
+    
