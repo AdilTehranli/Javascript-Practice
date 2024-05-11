@@ -296,12 +296,25 @@
 // }
 // console.log(reserved);
 
-// 10. Cümlədəki sözlərin yerini tərsinə çevirən program yazın.
+// // 10. Cümlədəki sözlərin yerini tərsinə çevirən program yazın.
 // let text = "Salam menim adim leyladir"
 // function ReverseApp() {
 //     return text.split(" ").reverse().join(" ").split("  ").reverse().join(" ")
 // }
 // console.log(ReverseApp());
+
+// let text = "Salam menim adim leyladir. men artiq proqramladirma kursuna baslamisam. bu yolda mene destek olan yaxinlarima tesekkur edirem"
+
+// function reverseString(text) {
+//     let reversed = '';
+//     for (let i = text.length - 1; i >= 0; i--) {
+    
+//       reversed += text[i]
+//     }
+//     return reversed;
+//   }
+//   console.log(reverseString(text));
+
 
 // 11. Daxil edilmiş ədədi sözlə yazan funskiya (Məsinput:1, output : Bir)
 // function wordNumber(number){
@@ -396,3 +409,32 @@
 // let str = "ADNA";
 // str = str.replace("ADNA", "ADNSU");
 // console.log(str)
+
+// let products= [
+//     {
+//         name:"apple",
+//         price : 1.2,
+//         count:3
+//    },
+//    {
+//     name:"computer",
+//     price: 123,
+//     count:5
+// },
+// {
+//     name:"computer",
+//     price: 123,
+//     count:5
+// }
+// ]
+
+// function getTotal() {
+//     return this.count*this.price
+// }
+// products.forEach(item=>{
+//      console.log( getTotal.call(item));
+   
+// })
+
+
+
