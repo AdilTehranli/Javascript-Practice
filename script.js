@@ -487,3 +487,46 @@
 //     }
 // console.log(substringFunction("Hello World", 1, 5));
 
+// 15. indexOf metodunun işini yerinə yetirən funksiya yaradın
+
+// function findindex(str,index){
+
+//     return str.indexOf(index);
+// }
+    
+//     console.log(findindex("Hello World","o"));
+
+// 13. Daxil olunan ixtiyari ədədin rəqəmləri cəmini tapan funksiya yaradın
+// function addNumbers(num1, num2) {
+//     return num1 + num2;
+//   }
+//   let result = addNumbers(5, 3);
+
+
+// 6. 1-dən 100-ə qədər ədədlər daxilində təkliyi 1 olan ədədləri ekrana
+// verin
+// for (var i = 0; i < 100;i++){
+//     if((i+1)%2==1){
+//         console.log(i+1);
+//         }
+// }
+
+// 7. Daxil olunmuş ifadənin polindrom olduğunu yoxlayın. (polindrom
+//     dedikdə tərsi və düzü eyni olan ifadə başa düşülür məsələn ütü,
+//     121,1331,4554 və s.)
+// let string = +prompt("Palindromu yoxla")
+// function validatePalin(str) {  
+//     const len = string.length;  
+//     for (let i = 0; i < len / 2; i++) {  
+//         if (string[i] !== string[len - 1 - i]) {  
+//             alert( 'Palindrom deyil');  
+//         }  
+//     }  
+//     alert( 'Palindromdur');  
+// }  
+// console.log(validatePalin(string));
+
+// 8. Daxil olunmuş iki sözün anaqram olduğunu yoxlayın ( anaqram
+//     dedikdə sözlərinin tərkibinin eyni olması başa düşülür, məsələn oslo
+//     solo və s.)
+
