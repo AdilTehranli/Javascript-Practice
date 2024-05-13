@@ -437,4 +437,53 @@
 // })
 
 
+// 1. Array daxilində tək yerdə duran elementləri ekrana verin
+// let arr=[0,4,7,8]
+// console.log(...new Set([...arr]))
+
+// 2. Array elementləri daxilində 5-ə bölünən ədədlərin sayını ekrana verin
+// let nums = [10,20,30,40,9,7];
+
+// for(let i = 0;i<nums.length;i++){
+//     if (nums[i]%5){
+//         continue;
+//         }else{
+//             console.log(nums[i]);
+
+//     }
+// }
+
+// 3. Array elementləri daxilində 7-ə bölünən sonuncu ədədi ekrana çıxarın.
+// let numbers= [6,10,14,18,21,25,35,40,42,49];   // edilmelidi
+// if(numbers % 7==0){
+// for(let i=0; i<numbers.length - 1 ;i++ ){
+// }
+// console.log(numbers[i].length -1 )
+// }
+
+// 4. Array elementləri daxilində ən böyük və ən kiçik elementlərin yerini
+// dəyişən proqram tərtib edin
+// let arr = [3,-5,8,10,1,2,6,-8];
+// let largest = arr[0]
+// let smallest = arr[0]
+// for(let i =0; i<arr.length;i++){
+//     if(arr[i]>largest){
+//         largest = arr[i]
+//     }
+//     if(arr[i]<smallest){
+//         smallest = arr[i]
+//     }
+// }
+// console.log(smallest ," " , largest);
+
+// 5. Verilmiş array daxilində ixtiyari(random) ədədi ekrana çıxaran
+// proqram tərtib edin
+// let randomNum = Math.floor(Math.random() * 10 +1);
+// alert("Random number is : "+randomNum);
+
+// 14. Substring metodunun işini yerinə yetirən funksiya yaradın
+// function substringFunction(str, startIndex, endIndex) {
+//         return str.substring(startIndex,endIndex);
+//     }
+// console.log(substringFunction("Hello World", 1, 5));
 
