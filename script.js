@@ -530,3 +530,34 @@
 //     dedikdə sözlərinin tərkibinin eyni olması başa düşülür, məsələn oslo
 //     solo və s.)
 
+// function checkAnagram(a, b) {
+//     if (a.length !== b.length) {
+//         return false;
+//     }
+//     let str1 = a.split('').sort().join('');
+//     let str2 = b.split('').sort().join('');
+//     let result = (str1 === str2);
+//     return result;
+// }
+// console.log(checkAnagram('salam', 'malas'));
+
+// 10. İstifadəçi daxil edən ədəd sayda ixtiyarı(random) simvoldan ibarət
+// string ifadə yaradın (məsələn input:5 output: qeg8d)
+// function makeid(length) {
+//     let result = '';
+//     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+//     const charactersLength = characters.length;
+//     let counter = 0;
+//     while (counter < length) {
+//       result += characters.charAt(Math.floor(Math.random() * charactersLength));
+//       counter += 1;
+//     }
+//     return result;
+// }
+
+// console.log(makeid(5));
+
+// 2 tarix arasındakı intervalı tapın. ( nəticə : 1 il 3ay 5 gün – formatında
+//     olmalıdı)
+// const date = new Date()
+// date.setFullYear()
