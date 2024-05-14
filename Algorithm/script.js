@@ -391,17 +391,19 @@
 // console.log(printNumberWithSpaces(numberInput))
 
 // 18. Verilmiş mətndə təkrarlana sözlərin sayını tapın
-// const  sentence = "The quick brown fox fox jumps over the lazy dog"
-// const chars = {}
-// const arr = sentence.split(' ')
-// for(let word of arr){
-//     if(!chars[word]){
-//         chars[word] = 1
-//     }else{
-//         chars[word]++
-//     }
-// }
-// console.log(chars);
+const  sentence = "The quick fox quick brown brown fox fox jumps over the lazy dog"
+const chars = {}
+// console.log(chars.name);
+// console.log(chars["name"]);
+const arr = sentence.split(' ')
+for(let i=0;i<arr.length;i++){
+    if(!chars[arr[i]]){
+        chars[arr[i]] = 1
+    }else{
+        chars[arr[i]]++
+    }
+}
+console.log(chars);
 
 
 
