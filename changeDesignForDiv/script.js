@@ -13,10 +13,8 @@ function change(){
     obj.style.borderWidth=borderWidth + 'px'
 }
 
-
-
 function changeBorderStyle(val) {
-    obj.style.color=val
+    obj.style.borderStyle=val
 }
 function changeBorderColor (val) {
     obj.style.borderColor = val;
