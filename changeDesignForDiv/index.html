@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <input id="inp1" placeholder="width" type="text">
+    <input id="inp2" placeholder="height" type="text">
+    <input id="inp3" placeholder="border width" type="text"><br>
+
+    <select onchange="changeBorderStyle(this.value)" name="" id="">
+        <option value="">Border style</option>
+        <option value="dotted">dotted</option>
+    </select>
+
+    <select onchange="changeBorderColor(this.value)"  name="" id="">
+        <option value="">Border color</option>
+        <option value="black">black</option>
+    </select>
+
+    <select onchange="changeColor(this.value)"  name="" id="">
+        <option value="">Color</option>
+        <option value="red">red</option>
+    </select>
+
+    <select onchange="changeBackgroundColor(this.value)"  name="" id="">
+        <option value="">BackGround color</option>
+        <option value="red">red</option>
+    </select>
+    <button onclick="change()">Ok</button>
+
+
+
+    <div id="changedDiv">
+
+    </div>
+
+ 
+
+    <script src="script.js"></script>
+</body>
+</html>
