@@ -2,15 +2,15 @@ function addTodo() {
     let inp = document.getElementById("inp")
     let btn = document.getElementById("btn")
     let list = document.getElementById("ul")
-    list.innerHTML+=`<li>${inp.value}</li><button ondblclick="line(this)" onclick="removeList(this)">X</button>`
+    list.innerHTML+=`<li>${inp.value}<button ondblclick="removeList(this)" onclick="line(this)">X</button></li>`
     inp.value=""
 }
 
 function removeList(x) {
-    x.previousSibling.remove()
-    x.remove()
+    x.parentElement.remove()
+
 }
 
 function line(x){
-    x.style.textDecoration = "line-through"
+    x.parentElement.style.textDecoration = "line-through"
 }
