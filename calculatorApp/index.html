@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .calculator {
+
+
+width: 300px;
+height: 350px;
+margin: 100px auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.display {
+width: 94%;
+;
+border-radius: 5px;
+margin: auto;
+padding: 8px;
+font-size: 1.5em;
+text-align: center;
+background-color: black;
+color: white;
+text-align: right;
+}
+
+.buttons {
+display:flex;
+flex-wrap: wrap;
+
+
+}
+
+button {
+width: 100%;
+padding: 10px;
+font-size: 1em;
+background-color: #f0f0f0;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+button:hover {
+background-color: #e0e0e0;
+}
+.opertors{
+width: 100%;
+display: flex;
+gap: 15px;
+margin-bottom: 20px;
+margin-top: 20px;
+
+}
+.buttons>.reqem1{
+display: flex;
+width: 80%;
+gap: 15px;
+margin-bottom: 20px;
+}
+.buttons>.reqem1>button{
+width: 64px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.buttons>.reqem2{
+display: flex;
+width: 80%;
+gap: 15px;
+margin-bottom: 20px;
+}
+.buttons>.reqem2>button{
+width: 64px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.buttons>.reqem3{
+display: flex;
+width: 80%;
+gap: 15px;
+margin-bottom: 20px;
+}
+.buttons>.reqem3>button{
+width: 64px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.buttons>.reqem4{
+display: flex;
+width: 80%;
+gap: 15px;
+margin-bottom: 20px;
+}
+.buttons>.reqem4>button{
+width: 64px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.buttons>.reqem4>.ac{
+background-color: rgb(207, 31, 31);
+color: #fff;
+}
+
+.beraber{
+width: 60px;
+position: relative;
+
+
+}
+.beraber>button{
+height: 220px;
+background-color: rgb(25, 25, 111);
+color: #fff;
+border-radius: 5px;
+position: absolute;
+
+bottom: 20px;
+
+
+
+}
+
+::placeholder{
+color: #fff;
+}
+    </style>
+</head>
+<body>
+<div class="calculator">
+        <input type="text" class="display" id="displayInput" disabled placeholder="0" >
+    <div class="buttons">
+            <div class="opertors">
+            <button onclick="buttonKal(this)">+</button>
+            <button onclick="buttonKal(this)">-</button>
+            <button onclick="buttonKal(this)">*</button>
+            <button onclick="buttonKal(this)">/</button>
+            </div>
+        <div class="reqem1">
+            <button onclick="buttonKal(this)">7</button>
+            <button onclick="buttonKal(this)">8</button>
+            <button onclick="buttonKal(this)">9</button>
+             
+        </div>
+    
+        <div class="reqem2">
+            <button onclick="buttonKal(this)">4</button>
+            <button onclick="buttonKal(this)">5</button>
+            <button onclick="buttonKal(this)">6</button>
+        </div>
+    
+        <div class="reqem3">
+            <button onclick="buttonKal(this)">1</button>
+            <button onclick="buttonKal(this)">2</button>
+            <button onclick="buttonKal(this)">3</button>
+        </div>
+    
+        <div class="reqem4">
+            <button onclick="buttonKal(this)">0</button>
+            <button onclick="buttonKal(this)">.</button>
+            <button onclick="sil()" class="ac">AC</button>
+        </div>
+    
+        <div class="beraber">
+            <button onclick="equal()">=</button>
+        </div>
+    </div>
+</div>    
+
+<script src="script.js"></script>
+</body>
+</html>
