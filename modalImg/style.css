@@ -1,0 +1,87 @@
+.portfolio_section {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.portfolio_section h2 {
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.portfolio_card {
+  background-color: white;
+  height: 380px;
+}
+.portfolio_card h3 {
+  font-size: 23px;
+}
+.portfolio_cards {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+.portfolio_card_img img {
+  width: 380px;
+}
+.portfolio_card_img {
+  position: relative;
+}
+.portfolio_card_img::after {
+  content: "+";
+  text-align: center;
+  line-height: 270px;
+  font-size: 60px;
+  color: white;
+  align-items: center;
+  width: 100%;
+  height: 99%;
+  background-color: rgba(255, 200, 0, 0.9);
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  font-weight: 700;
+  font-size: 90px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.portfolio_card_img:hover::after {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.product_preview {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: ☐ rgba(0, 0, 0, 0.8);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+.product_preview .preview {
+  display: none;
+  text-align: center;
+  background: #fff;
+  position: relative;
+  width: 100%  ;
+}
+.product_preview .preview.active {
+  display: inline-block;
+}
+
+ .product_preview .preview img{
+    height: 20rem;
+}
+.product_preview .preview button{
+    background-color: rgb(188, 188, 26);
+    border: none;
+    width: 169px;
+    height: 44px;
+    color: white;
+} 

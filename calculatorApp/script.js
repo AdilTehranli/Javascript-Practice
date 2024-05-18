@@ -27,3 +27,7 @@ function equal(){
 function sil(){
     displayInput.value=" "
 }
+
+function singleDel(x){
+    displayInput.value=displayInput.value.slice(0,-1)
+}
