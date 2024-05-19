@@ -1,0 +1,16 @@
+.all_imgs{
+    text-align: center;
+    
+}
+
+.icon1{
+    
+    z-index: 999999;
+    top: 0;
+}
+.all_img{
+    justify-content: center;
+}
+.img img {
+    width: 300px;
+}
