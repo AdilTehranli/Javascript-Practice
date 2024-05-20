@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebar_menu {
+  transition: all 0.5s ease;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  width: 90px;
+  height: 400px;
+  background-color: blue;
+}
+.bar_icon {
+  color: white;
+}
+.sidebar_list {
+  margin-top: 40px;
+}
+
+.sidebar_list ul li {
+  margin-top: 10px;
+}
