@@ -1,0 +1,9 @@
+.all_item{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    
+}
+.card img{
+    width: 200px;
+}
