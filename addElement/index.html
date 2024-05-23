@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        .text {
+            padding: 30px;
+            text-align: center
+        }
+
+        .text input {
+            font-size: 30px;
+            border: 2px solid black;
+        }
+
+        .text button {
+            font-size: 30px;
+            padding: 0 20px;
+            background-color: yellow;
+            border: 2px solid yellow;
+            cursor: pointer;
+        }
+
+        .lists {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            flex-wrap: wrap;
+            align-items: center;
+
+        }
+
+        .list-box {
+            width: 26%;
+
+        }
+
+        .list-box p {
+            font-size: 30px;
+            margin: 15px;
+        }
+
+        .list {
+            border: 2px solid black;
+            height: 400px;
+            width: 100%;
+        }
+
+        .list ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .list ul li {
+            border-bottom: 1px solid black;
+            padding: 10px 0;
+            font-size: 20px;
+            list-style: none;
+            cursor: pointer;
+
+        }
+
+        .left,
+        .right {
+            font-size: 30px;
+            margin: 30px 0;
+            cursor: pointer;
+        }
+
+        .selected {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text">
+            <input type="text" placeholder="Text" id="text-inp" autocomplete="off">
+            <button id="addBtn">add</button>
+        </div>
+        <div class="lists">
+
+            <div class="list-box">
+                <p>Görüləcək işlər</p>
+                <div class="list">
+                    <ul id="list-1">
+                        <li onclick="MoveList(this)">gjhkjlkl</li>
+                        <li onclick="MoveList(this)">gfhjkll;</li>
+                        <li onclick="MoveList(this)">wertyuio</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="icon">
+                <div class="left">
+                    <i class="fa-solid fa-arrow-left" onclick="left1()"></i>
+                </div>
+                <div class="right">
+                    <i class="fa-solid fa-arrow-right" onclick="right1()"></i>
+                </div>
+            </div>
+            <div class="list-box">
+                <p>Görülən işlər</p>
+                <div class="list">
+                    <ul id="list-2">
+                        <li onclick="MoveList(this)">wertyuio tryuio</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="icon">
+                <div class="left">
+                    <i class="fa-solid fa-arrow-left" onclick="left2()"></i>
+                </div>
+                <div class="right">
+                    <i class="fa-solid fa-arrow-right" onclick="right2()"></i>
+                </div>
+            </div>
+            <div class="list-box">
+                <p>Görülmüş işlər</p>
+                <div class="list">
+                    <ul id="list-3">
+                        <li onclick="MoveList(this)">1ewrtyuioq</li>
+                        <li onclick="MoveList(this)">wertyugfhk</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
