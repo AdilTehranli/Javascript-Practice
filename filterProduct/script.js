@@ -13,6 +13,4 @@ const filtercard = e=>{
         }
     })
 }
-
-
 filterProduct.forEach(btn=>btn.addEventListener("click",filtercard))
