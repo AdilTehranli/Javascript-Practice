@@ -1,0 +1,17 @@
+.all_volume{
+    display: flex;
+}
+.volume_border{
+    width: 200px;
+    border: 1px solid;
+    
+}
+.child{
+    width: 100px;
+    height: 100%;
+    background-color: blue;
+}
+
+.faiz{
+    margin-left: 6.5rem;
+}
