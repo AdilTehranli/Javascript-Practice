@@ -44,12 +44,18 @@ getData()
 
 function getData() {
     allTable.innerHTML=""; 
-    users.forEach((item,index)=>{
+      users.forEach((item,index)=>{
         allTable.innerHTML+=`  <tr>
         <th scope="row">${index+1}</th>
         <td class="name">${item.name}</td>
         <td class="surname" >${item.surname}</td>
+        <td  onclick="deleteRow(${index})" ><i class="fa-solid fa-trash"></i></td>
         </tr>`
     })
+}
+
+function deleteRow(index) {
+    users.splice(index,1)
+    getData()
 }
     
