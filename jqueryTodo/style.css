@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+}
+.all_item{
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 30px;
+    border: none;
+}
+button{
+    background-color: chocolate;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+    
+}
+.rem{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.icon{
+    background-color: green;
+
+}
